@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+body table {
+  text-align: center;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+body table tr td tfoot {
+  border: 1px solid #000;
+}
+body tr {
+  border: 1px solid #000;
+}
+body td {
+  border: 1px solid #000;
+}
+body th {
+  width: 100px;
+  height: 40px;
+}
+body tfoot {
+  text-align: left;
+}
+body tfoot > tr {
+  border: 1px solid #000;
+}/*# sourceMappingURL=main.css.map */
